@@ -247,26 +247,22 @@
                 android:id="@+id/btnCancelarFisico"
                 android:layout_width="150dp"
                 android:layout_height="50dp"
-
                 android:layout_weight="1"
-                android:background="#F44336"
+                android:background="#fff"
                 android:onClick="CancelarCF"
-
                 android:text="Cancelar"
-                android:textColor="#fff"
+                android:textColor="#000"
                 android:textSize="20dp" />
 
             <Button
                 android:id="@+id/btnEnviar"
                 android:layout_width="150dp"
                 android:layout_height="50dp"
-
                 android:layout_weight="1"
-                android:background="#4CAF50"
+                android:background="#fff"
                 android:onClick="EnviarCF"
-
                 android:text="Cadastrar"
-                android:textColor="#fff"
+                android:textColor="#000"
                 android:textSize="20dp"
 
 

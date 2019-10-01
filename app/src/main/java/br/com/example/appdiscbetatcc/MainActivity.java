@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        sairSistema = (Button)findViewById(R.id.btnSair);
+
         Cadastrar = (Button)findViewById(R.id.btnCadastrar);
         Login = (Button)findViewById(R.id.btnLogin);
         dialog = new Dialog(this);

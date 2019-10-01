@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".estabilidade_Activity"
     android:orientation="vertical"
-    android:background="#1F17FF"
+    android:background="#0000FF"
     >
 
     <Button

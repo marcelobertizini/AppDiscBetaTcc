@@ -248,20 +248,14 @@
 
         <Button
             android:id="@+id/btnCancelarJurid"
-
-
-
-
             android:onClick="CancelarJur"
-
             android:text="Cancelar"
-            android:textColor="#ffff"
+            android:textColor="#000"
             android:textSize="20dp"
             android:layout_width="150dp"
             android:layout_height="50dp"
-
             android:layout_weight="1"
-            android:background="#F44336"
+            android:background="#fff"
 
             />
 
@@ -270,13 +264,12 @@
             android:onClick="EnviarJur"
             android:padding="10dp"
             android:text="Cadastrar"
-            android:textColor="#ffff"
+            android:textColor="#000"
             android:textSize="20dp"
             android:layout_width="150dp"
             android:layout_height="50dp"
-
             android:layout_weight="1"
-            android:background="#4CAF50"
+            android:background="#fff"
 
             />
 

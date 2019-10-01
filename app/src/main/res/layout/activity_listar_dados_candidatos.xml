@@ -54,7 +54,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:text="Este Candidato é mais..."
-        android:textColor="#fff"
+        android:textColor="@color/colorFonte"
         android:textSize="20dp"
         />
 
@@ -73,7 +73,7 @@
 
             android:textSize="20dp"
             android:id="@+id/id_maior"
-            android:textColor="#fff"
+            android:textColor="@color/colorFonte"
             />
 
 
@@ -84,7 +84,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:text="Com ascendente..."
-        android:textColor="#fff"
+        android:textColor="@color/colorFonte"
         android:textSize="20dp"
         />
     <LinearLayout
@@ -102,7 +102,7 @@
 
             android:textSize="20dp"
             android:id="@+id/id_Segmaior"
-            android:textColor="#fff"
+            android:textColor="@color/colorFonte"
             />
 
 

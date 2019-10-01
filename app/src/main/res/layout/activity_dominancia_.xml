@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".dominancia_Activity"
     android:orientation="vertical"
-    android:background="#F00202"
+    android:background="#8B0000"
 
     >
 

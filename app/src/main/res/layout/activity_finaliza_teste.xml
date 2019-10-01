@@ -28,20 +28,25 @@
 
     <TextView
 
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_marginTop="100dp"
+        android:layout_marginBottom="100dp"
         android:text="Teste Finalizado!"
         android:textAlignment="center"
         android:textColor="@color/colorFonte"
         android:textSize="40dp" />
 
     <Button
+
         android:id="@+id/enviateste"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
         android:layout_margin="10dp"
-        android:background="@drawable/buttonmenor"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="#fff"
         android:onClick="enviaTeste"
         android:padding="10dp"
         android:text="Enviar Teste"
