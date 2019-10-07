@@ -48,24 +48,12 @@
                 </LinearLayout>
 
 
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="30dp"
-                android:text="Avaliação Comportamental"
-                android:textColor="@color/colorFonte"
-                android:textSize="25dp"
-                android:layout_marginBottom="50dp"
-                />
-
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10sp"
-                android:gravity="center_horizontal">
+                android:layout_marginTop="50dp"
+                android:gravity="center_horizontal"
+                >
 
                 <Button
                     android:id="@+id/angry_btn"
@@ -101,6 +89,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:layout_marginBottom="50dp"
                 android:gravity="center_horizontal">
 
                 <Button
@@ -113,8 +102,8 @@
                     android:shadowColor="#4F4F4F"
                     android:shadowDx="-4"
                     android:shadowDy="6"
-                    android:shadowRadius="7"
-                    android:text="C"
+                    android:shadowRadius=""
+                    android:text="c"
                     android:textColor="#FFFFFF"
                     android:textSize="80sp" />
 
@@ -145,9 +134,10 @@
                 android:onClick="ShowPopup"
                 android:padding="10dp"
                 android:text="Cadastrar"
-                android:textColor="#000"
+                android:textColor="@color/colorFonteButton"
                 android:textSize="20dp"
-                android:background="#ffff"
+                android:background="@color/colorButton"
+                android:layout_marginBottom="10dp"
                 />
 
             <Button
@@ -157,11 +147,11 @@
                 android:layout_margin="10dp"
                 android:gravity="center"
                 android:layout_gravity="center"
-                android:background="#ffff"
+                android:background="@color/colorButton"
                 android:onClick="Login"
                 android:padding="10dp"
                 android:text="Login"
-                android:textColor="#000"
+                android:textColor="@color/colorFonteButton"
                 android:textSize="20dp"
                 android:layout_marginTop="50dp"
                 />

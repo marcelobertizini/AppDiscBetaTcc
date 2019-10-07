@@ -20,11 +20,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Cadastro: Candidato"
-        android:textColor="#ffff"
+        android:textColor="@color/colorFonte"
         android:textSize="25dp"
         android:padding="5dp"
         android:gravity="center"
-        android:background="#3F51B5"
         />
 
 
@@ -42,39 +41,15 @@
             android:layout_margin="10dp"
             >
 
-
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Nome Completo:"
-            android:textColor="@color/colorFonte"
-            android:textSize="20dp"
-            android:layout_marginLeft="5dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="5dp"
-            />
-
         <EditText
             android:id="@+id/txtNomeFisico"
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:background="@drawable/borda"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:hint="Nome Completo:"
             android:textColor="@color/colorFonte"
+            android:textColorHint="@color/colorFonte"
             android:padding="5dp"
-            android:layout_marginLeft="5dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginRight="5dp"
-            />
-
-
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="CPF:"
-            android:textColor="@color/colorFonte"
-            android:textSize="20dp"
             android:layout_marginLeft="5dp"
             android:layout_marginTop="5dp"
             android:layout_marginRight="5dp"
@@ -82,9 +57,11 @@
 
         <EditText
             android:id="@+id/txtCpfFisico"
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:background="@drawable/borda"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:hint="CPF:"
+            android:textColorHint="@color/colorFonte"
             android:textColor="@color/colorFonte"
             android:padding="5dp"
             android:inputType="number"
@@ -94,24 +71,12 @@
 
             />
 
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="E-mail:"
-        android:textColor="@color/colorFonte"
-        android:textSize="20dp"
-        android:layout_marginLeft="5dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginRight="5dp"
-
-        />
-
-    <EditText
+     <EditText
         android:id="@+id/txtEmailFisico"
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:background="@drawable/borda"
+         android:layout_width="350dp"
+         android:layout_height="50dp"
+         android:layout_margin="10dp"
+        android:hint="E-mail:"
         android:textColorHint="@color/colorFonte"
         android:textColor="@color/colorFonte"
         android:padding="5dp"

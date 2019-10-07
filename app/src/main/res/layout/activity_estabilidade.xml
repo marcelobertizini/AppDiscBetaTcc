@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".estabilidade_Activity"
     android:orientation="vertical"
-    android:background="#0000FF"
+    android:background="@color/colorEstabilidade"
     >
 
     <Button
@@ -32,7 +32,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:text="Estabilidade"
-        android:textColor="#ffff"
+        android:textColor="@color/colorFonteDisc"
         android:textSize="30dp"
         android:fontFamily="sans-serif-black"
         />
@@ -44,7 +44,7 @@
         android:layout_marginTop="30dp"
         android:layout_margin="10dp"
         android:text="@string/desc_estabilidade"
-        android:textColor="#ffff"
+        android:textColor="@color/colorFonteDisc"
         android:textSize="25dp" />
 
 </LinearLayout>

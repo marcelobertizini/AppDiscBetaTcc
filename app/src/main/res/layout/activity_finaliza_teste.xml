@@ -46,11 +46,11 @@
         android:layout_margin="10dp"
         android:gravity="center"
         android:layout_gravity="center"
-        android:background="#fff"
+        android:background="@color/colorButton"
         android:onClick="enviaTeste"
         android:padding="10dp"
         android:text="Enviar Teste"
-        android:textColor="@color/colorFonte"
+        android:textColor="@color/colorFonteButton"
         android:textSize="20dp" />
 
 

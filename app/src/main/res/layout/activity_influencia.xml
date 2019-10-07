@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".influencia_Activity"
     android:orientation="vertical"
-    android:background="#549745"
+    android:background="@color/colorInfluencia"
     >
 
     <Button
@@ -32,7 +32,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:text="Influência"
-        android:textColor="#ffff"
+        android:textColor="@color/colorFonteDisc"
         android:textSize="30dp"
         android:fontFamily="sans-serif-black"
         />
@@ -44,7 +44,7 @@
         android:layout_marginTop="30dp"
         android:layout_margin="10dp"
         android:text="@string/desc_influencia"
-        android:textColor="#ffff"
+        android:textColor="@color/colorFonteDisc"
         android:textSize="25dp" />
 
 </LinearLayout>

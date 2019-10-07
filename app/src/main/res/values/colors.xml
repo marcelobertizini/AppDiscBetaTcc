@@ -5,10 +5,11 @@
     <color name="colorAccent">#D81B60</color>
     <color name="colorBackground">#fff</color>
     <color name="colorFonte">#000</color>
-
-    <color name="preto">#000</color>
-
-    <color name="branco">#ffff</color>
-    <color name="azul">#FF1E2935</color>
-
+    <color name="colorButton">#03A9F4</color>
+    <color name="colorFonteButton">#000</color>
+    <color name="colorCautela">#ffa00e</color>
+    <color name="colorDominancia">#8B0000</color>
+    <color name="colorEstabilidade">#0000FF</color>
+    <color name="colorInfluencia">#549745</color>
+    <color name="colorFonteDisc">#fff</color>
 </resources>

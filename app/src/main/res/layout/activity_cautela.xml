@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffa00e"
+    android:background="@color/colorCautela"
     android:orientation="vertical"
     tools:context=".cautela_Activity">
 
@@ -31,7 +31,7 @@
         android:layout_marginTop="20dp"
         android:fontFamily="sans-serif-black"
         android:text="Cautela"
-        android:textColor="#ffff"
+        android:textColor="@color/colorFonteDisc"
         android:textSize="30dp" />
 
     <TextView
@@ -41,7 +41,7 @@
         android:layout_marginTop="30dp"
         android:gravity="center_horizontal"
         android:text="@string/desc_cautela"
-        android:textColor="#ffff"
+        android:textColor="@color/colorFonteDisc"
         android:textSize="25dp" />
 
 </LinearLayout>
