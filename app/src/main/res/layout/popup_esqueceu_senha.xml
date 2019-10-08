@@ -12,7 +12,7 @@
         android:layout_width="350dp"
         android:layout_height="475dp"
         android:orientation="vertical"
-        android:background="#2A2E38"
+        android:background="@color/colorBackground"
         android:layout_gravity="center"
         >
 
@@ -35,53 +35,37 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Esqueceu a senha?"
-            android:textColor="#ffff"
+            android:textColor="@color/colorFonte"
             android:textSize="25dp"
             android:padding="5dp"
             android:gravity="center"
-            android:background="#3F51B5"
             android:layout_marginBottom="100dp"
             />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Digite o E-mail cadastrado:"
-            android:textColor="@color/colorFonte"
-            android:textSize="20dp"
-            android:layout_marginLeft="5dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginRight="5dp"
-
-            />
 
         <EditText
             android:id="@+id/txtEmailSenha"
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:background="@drawable/borda"
-            android:textColorHint="@color/colorFonte"
-            android:textColor="@color/colorFonte"
-            android:padding="5dp"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+
+
+
+
+            android:hint="E-mail"
             android:inputType="textEmailAddress"
-            android:layout_marginLeft="5dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginRight="5dp"
-            />
-
-
+            android:padding="5dp"
+            android:textColorHint="@color/colorFonte" />
 
         <Button
             android:id="@+id/btnEnviar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
             android:layout_marginTop="90dp"
-            android:background="#ffff"
+            android:background="@color/colorButton"
             android:padding="10dp"
             android:text="Enviar"
             android:textAlignment="center"
-            android:textColor="#000" />
+            android:textColor="@color/colorFonteButton" />
 
     </LinearLayout>
 

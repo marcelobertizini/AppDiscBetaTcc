@@ -63,10 +63,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Excluir"
-            android:background="#F44336"
+            android:background="@color/colorFonteButtonEscluir"
             android:layout_margin="10dp"
             android:id="@+id/excluir"
-            android:textColor="#ffff"
+            android:textColor="@color/colorFonteButton"
 
             />
 

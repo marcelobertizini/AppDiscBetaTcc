@@ -5,8 +5,9 @@
     <color name="colorAccent">#D81B60</color>
     <color name="colorBackground">#fff</color>
     <color name="colorFonte">#000</color>
-    <color name="colorButton">#03A9F4</color>
+    <color name="colorButton">#E7E6E6</color>
     <color name="colorFonteButton">#000</color>
+    <color name="colorFonteButtonEscluir">#FF0000</color>
     <color name="colorCautela">#ffa00e</color>
     <color name="colorDominancia">#8B0000</color>
     <color name="colorEstabilidade">#BA0000FF</color>
