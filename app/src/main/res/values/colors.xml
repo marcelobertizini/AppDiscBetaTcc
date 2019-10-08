@@ -9,7 +9,7 @@
     <color name="colorFonteButton">#000</color>
     <color name="colorCautela">#ffa00e</color>
     <color name="colorDominancia">#8B0000</color>
-    <color name="colorEstabilidade">#0000FF</color>
+    <color name="colorEstabilidade">#BA0000FF</color>
     <color name="colorInfluencia">#549745</color>
     <color name="colorFonteDisc">#fff</color>
 </resources>

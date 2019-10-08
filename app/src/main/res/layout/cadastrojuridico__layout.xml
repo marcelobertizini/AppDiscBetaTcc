@@ -16,16 +16,14 @@
         >
 
 
-
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Cadastro: RH/Psicólogo(a)"
-        android:textColor="#ffff"
+        android:text="Cadastro RH/Psicólogo(a)"
+        android:textColor="@color/colorFonte"
         android:textSize="25dp"
         android:padding="5dp"
         android:gravity="center"
-        android:background="#3F51B5"
         />
 
 
@@ -41,186 +39,111 @@
 
 
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Nome / Razão Social:"
-                    android:textColor="@color/colorFonte"
-                    android:textSize="20dp"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginRight="5dp"
 
-                    />
 
                 <EditText
                     android:id="@+id/txtRazaoSocial"
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:background="@drawable/borda"
+                    android:layout_width="350dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="10dp"
+                    android:hint="Nome / Razão Social:"
+                    android:textColorHint="@color/colorFonte"
                     android:padding="5dp"
                     android:textColor="@color/colorFonte"
-                    android:layout_marginLeft="5dp"
                     android:layout_marginTop="5dp"
-                    android:layout_marginRight="5dp"
                     />
 
 
 
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="CPF / CNPJ:"
-                    android:textColor="@color/colorFonte"
-                    android:textSize="20dp"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginRight="5dp"
-                    />
+
 
                 <EditText
                     android:id="@+id/txtCnpj"
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:background="@drawable/borda"
+                    android:layout_width="350dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="10dp"
+                    android:hint="CPF / CNPJ:"
+                    android:textColorHint="@color/colorFonte"
                     android:padding="5dp"
                     android:textColor="@color/colorFonte"
                     android:inputType="number"
-                    android:layout_marginLeft="5dp"
                     android:layout_marginTop="5dp"
-                    android:layout_marginRight="5dp"
                     />
 
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="E-mail para envio do resultado:"
-                android:textColor="@color/colorFonte"
-                android:textSize="20dp"
-                android:layout_marginLeft="5dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginRight="5dp"
-
-                />
 
             <EditText
                 android:id="@+id/txtEmailJurid"
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:background="@drawable/borda"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:hint="E-mail para envio do resultado:"
+                android:textColorHint="@color/colorFonte"
                 android:padding="5dp"
-                android:textColor="@color/colorFonte"
                 android:inputType="textWebEmailAddress"
-                android:layout_marginLeft="5dp"
                 android:layout_marginTop="5dp"
-                android:layout_marginRight="5dp"
                 />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Telefone:"
-                android:textColor="@color/colorFonte"
-                android:textSize="20dp"
-                android:layout_marginLeft="5dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginRight="5dp"
-                />
+
 
             <EditText
                 android:id="@+id/txtTel"
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:background="@drawable/borda"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:hint="Telefone:"
+                android:textColorHint="@color/colorFonte"
                 android:padding="5dp"
-                android:textColor="@color/colorFonte"
                 android:inputType="number"
-                android:layout_marginLeft="5dp"
                 android:layout_marginTop="5dp"
-                android:layout_marginRight="5dp"
                 />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Insira uma senha:"
-                android:textColor="@color/colorFonte"
-                android:textSize="20dp"
-                android:layout_marginLeft="5dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginRight="5dp"
 
-                />
 
             <EditText
                 android:id="@+id/txtSenhaJ"
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:background="@drawable/borda"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:textColorHint="@color/colorFonte"
                 android:drawableRight="@drawable/ic_lock_dp"
-                android:hint=""
+                android:hint="Insira uma senha:"
                 android:inputType="textPassword"
                 android:padding="10dp"
-                android:textColor="@color/colorFonte"
-                android:layout_marginLeft="5dp"
                 android:layout_marginTop="5dp"
-                android:layout_marginRight="5dp"
-
                 />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Confirme sua senha:"
-                android:textColor="@color/colorFonte"
-                android:textSize="20dp"
-                android:layout_marginLeft="5dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginRight="5dp"
-                />
+
 
             <EditText
                 android:id="@+id/txtSenhaJConfirme"
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:background="@drawable/borda"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:hint="Confirme sua senha:"
+                android:textColorHint="@color/colorFonte"
                 android:drawableRight="@drawable/ic_lock_dp"
                 android:inputType="textPassword"
                 android:padding="10dp"
-                android:textColor="@color/colorFonte"
-                android:layout_marginLeft="5dp"
                 android:layout_marginTop="5dp"
-                android:layout_marginRight="5dp"
                 android:layout_marginBottom="5dp"
                 />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Código de acesso:"
-                android:textColor="@color/colorFonte"
-                android:textSize="20dp"
-                android:layout_marginLeft="5dp"
-                android:layout_marginTop="5dp"
-                />
+
 
             <EditText
                 android:id="@+id/txtCodigoJAcesso"
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:background="@drawable/borda"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:hint="Código de acesso:"
+                android:textColorHint="@color/colorFonte"
                 android:inputType="textPassword"
                 android:padding="10dp"
-                android:textColor="@color/colorFonte"
-                android:layout_marginLeft="5dp"
                 android:layout_marginTop="5dp"
-                android:layout_marginRight="5dp"
                 android:layout_marginBottom="5dp"
                 />
-
-
 
 
 
@@ -250,12 +173,12 @@
             android:id="@+id/btnCancelarJurid"
             android:onClick="CancelarJur"
             android:text="Cancelar"
-            android:textColor="#000"
+            android:textColor="@color/colorFonte"
             android:textSize="20dp"
             android:layout_width="150dp"
             android:layout_height="50dp"
             android:layout_weight="1"
-            android:background="#fff"
+            android:background="@color/colorButton"
 
             />
 
@@ -264,13 +187,13 @@
             android:onClick="EnviarJur"
             android:padding="10dp"
             android:text="Cadastrar"
-            android:textColor="#000"
+            android:textColor="@color/colorFonte"
             android:textSize="20dp"
             android:layout_width="150dp"
             android:layout_height="50dp"
             android:layout_weight="1"
-            android:background="#fff"
-
+            android:background="@color/colorButton"
+            android:layout_marginBottom="20dp"
             />
 
     </LinearLayout>

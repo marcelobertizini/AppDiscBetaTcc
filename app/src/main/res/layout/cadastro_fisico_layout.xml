@@ -15,11 +15,10 @@
         >
 
 
-
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Cadastro: Candidato"
+        android:text="Cadastro Candidato"
         android:textColor="@color/colorFonte"
         android:textSize="25dp"
         android:padding="5dp"
@@ -31,7 +30,6 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
 
         
         <LinearLayout
@@ -47,12 +45,9 @@
             android:layout_height="50dp"
             android:layout_margin="10dp"
             android:hint="Nome Completo:"
-            android:textColor="@color/colorFonte"
             android:textColorHint="@color/colorFonte"
             android:padding="5dp"
-            android:layout_marginLeft="5dp"
             android:layout_marginTop="5dp"
-            android:layout_marginRight="5dp"
             />
 
         <EditText
@@ -62,13 +57,9 @@
             android:layout_margin="10dp"
             android:hint="CPF:"
             android:textColorHint="@color/colorFonte"
-            android:textColor="@color/colorFonte"
             android:padding="5dp"
             android:inputType="number"
-            android:layout_marginLeft="5dp"
             android:layout_marginTop="5dp"
-            android:layout_marginRight="5dp"
-
             />
 
      <EditText
@@ -78,113 +69,61 @@
          android:layout_margin="10dp"
         android:hint="E-mail:"
         android:textColorHint="@color/colorFonte"
-        android:textColor="@color/colorFonte"
         android:padding="5dp"
         android:inputType="textEmailAddress"
-        android:layout_marginLeft="5dp"
         android:layout_marginTop="5dp"
-        android:layout_marginRight="5dp"
         />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Telefone:"
-                android:textColor="@color/colorFonte"
-                android:textSize="20dp"
-                android:layout_marginLeft="5dp"
-                android:layout_marginTop="5dp"
-                />
-
-            <EditText
-                android:id="@+id/txtTel"
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:background="@drawable/borda"
-                android:textColor="@color/colorFonte"
+           <EditText
+               android:id="@+id/txtTel"
+               android:layout_width="350dp"
+               android:layout_height="50dp"
+               android:layout_margin="10dp"
+               android:hint="Telefone:"
+               android:textColorHint="@color/colorFonte"
                 android:padding="5dp"
                 android:inputType="number"
-                android:layout_marginLeft="5dp"
                 android:layout_marginTop="5dp"
-                android:layout_marginRight="5dp"
                 />
 
-
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Insira uma senha:"
-        android:textColor="@color/colorFonte"
-        android:textSize="20dp"
-        android:layout_marginLeft="5dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginRight="5dp"
-        />
 
     <EditText
         android:id="@+id/txtSenha"
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:background="@drawable/borda"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:hint="Insira uma senha:"
+        android:textColorHint="@color/colorFonte"
         android:drawableRight="@drawable/ic_lock_dp"
         android:inputType="textPassword"
         android:padding="10dp"
-        android:textColor="@color/colorFonte"
-        android:layout_marginLeft="5dp"
         android:layout_marginTop="5dp"
-        android:layout_marginRight="5dp"
         />
 
-
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Confirme sua senha:"
-        android:textColor="@color/colorFonte"
-        android:textSize="20dp"
-        android:layout_marginLeft="5dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginRight="5dp"
-        />
 
             <EditText
                 android:id="@+id/txtSenhaConfirme"
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:layout_marginLeft="5dp"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:hint="Confirme sua senha:"
+                android:textColorHint="@color/colorFonte"
                 android:layout_marginTop="5dp"
-                android:layout_marginRight="5dp"
-                android:background="@drawable/borda"
                 android:drawableRight="@drawable/ic_lock_dp"
                 android:inputType="textPassword"
                 android:padding="10dp"
-                android:textColor="@color/colorFonte"
-
-                />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Código de acesso:"
-                android:textColor="@color/colorFonte"
-                android:textSize="20dp"
-                android:layout_marginLeft="5dp"
-                android:layout_marginTop="5dp"
                 />
 
             <EditText
                 android:id="@+id/txtCodigoAcesso"
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:layout_marginLeft="5dp"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:hint="Codigo de acesso:"
+                android:textColorHint="@color/colorFonte"
                 android:layout_marginTop="5dp"
-                android:layout_marginRight="5dp"
-                android:background="@drawable/borda"
                 android:inputType="textPassword"
                 android:padding="10dp"
-                android:textColor="@color/colorFonte"
                 />
 
         </LinearLayout>
@@ -197,10 +136,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="bottom"
-        android:orientation="vertical"
-
-
-        >
+        android:orientation="vertical"        >
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -210,27 +146,26 @@
 
             <Button
                 android:id="@+id/btnCancelarFisico"
-                android:layout_width="150dp"
+                android:layout_width="140dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="#fff"
+                android:background="#E7E6E6"
                 android:onClick="CancelarCF"
                 android:text="Cancelar"
-                android:textColor="#000"
+                android:textColor="@color/colorFonteButton"
                 android:textSize="20dp" />
 
             <Button
                 android:id="@+id/btnEnviar"
-                android:layout_width="150dp"
+                android:layout_width="140dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="#fff"
+                android:background="#E7E6E6"
                 android:onClick="EnviarCF"
                 android:text="Cadastrar"
-                android:textColor="#000"
+                android:textColor="@color/colorFonteButton"
                 android:textSize="20dp"
-
-
+                android:layout_marginBottom="20dp"
                 />
 
         </LinearLayout>
