@@ -37,7 +37,7 @@ import static android.R.layout.simple_spinner_item;
 
 public class CadastroFisico_Activity extends AppCompatActivity {
 
-    String urlwebservices = "https://carlos.cf/apiRest/cadastrausuario.php";
+    String urlwebservices = "https://www.avaliacaodisc.com/apiRest/cadastrausuario.php";
 
 
     StringRequest stringRequest;
@@ -83,24 +83,12 @@ public class CadastroFisico_Activity extends AppCompatActivity {
         txtTel.addTextChangedListener(mascara.insert("(##)#####-####", txtTel));
 
         txtCpfFisico.addTextChangedListener(mascara.insert("###.###.###-##", txtCpfFisico));
-
-
-
-
-
-
-
     }
 
 
-    public void CancelarCF(View view) {
-        finish();
-
-    }
+    public void CancelarCF(View view) { finish();  }
 
     public void EnviarCF(View view) {
-
-
 
         boolean validado = true;
 
@@ -188,10 +176,6 @@ public class CadastroFisico_Activity extends AppCompatActivity {
             validarCadastro();
 
         }
-
-
-
-
     }
 
     private boolean validateEmailFormat(final String email) {
@@ -221,7 +205,6 @@ public class CadastroFisico_Activity extends AppCompatActivity {
                                 EnviarCF.setEnabled(true);
                             } else {
 
-
                                String nome = txtNomeFisico.getText().toString();
 
                                String email = txtEmailFisico.getText().toString();
@@ -231,9 +214,7 @@ public class CadastroFisico_Activity extends AppCompatActivity {
                                 intent.putExtra("login", email);
                                 startActivity(intent);
                                 finish();
-
                             }
-
                         } catch (Exception e) {
 
                             Toast.makeText(getApplicationContext(), "Erro, sem comunicação com o servidor, verifique a internet e tente novamente!", Toast.LENGTH_LONG).show();
@@ -262,17 +243,7 @@ public class CadastroFisico_Activity extends AppCompatActivity {
 
                 return params;
             }
-
-
         };
-
-
         requestQueue.add(stringRequest);
-
-
     }
-
-
-
-
 }

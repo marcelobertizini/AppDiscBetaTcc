@@ -23,7 +23,7 @@ import java.util.Map;
 
 public class CadastroJuridico_Activivity extends AppCompatActivity {
 
-    String urlwebservices = "https://carlos.cf/apiRest/cadastrarh.php";
+    String urlwebservices = "https://www.avaliacaodisc.com/apiRest/cadastrarh.php";
 
     StringRequest stringRequest;
     RequestQueue requestQueue;
@@ -46,8 +46,8 @@ public class CadastroJuridico_Activivity extends AppCompatActivity {
 
         requestQueue = Volley.newRequestQueue(this);
 
-        Enviar = (Button)findViewById(R.id.btnEnviar);
-        Cancelar = (Button)findViewById(R.id.btnCancelarJurid);
+        Enviar = (Button) findViewById(R.id.btnEnviar);
+        Cancelar = (Button) findViewById(R.id.btnCancelarJurid);
 
         txtRazaoSocial = findViewById(R.id.txtRazaoSocial);
         txtCnpj = findViewById(R.id.txtCnpj);
@@ -86,7 +86,7 @@ public class CadastroJuridico_Activivity extends AppCompatActivity {
             validado = false;
         }
 
-        if (validateEmailFormat(txtEmailJurid.getText().toString())==false) {
+        if (validateEmailFormat(txtEmailJurid.getText().toString()) == false) {
             txtEmailJurid.setError("Digite um email válido!");
             txtEmailJurid.requestFocus();
             validado = false;
@@ -126,7 +126,7 @@ public class CadastroJuridico_Activivity extends AppCompatActivity {
             validado = false;
         }
 
-        if(txtTel.getText().length()<13){
+        if (txtTel.getText().length() < 13) {
 
             txtTel.setError("Preencha o campo com DD + telefone");
             txtTel.requestFocus();
@@ -134,7 +134,7 @@ public class CadastroJuridico_Activivity extends AppCompatActivity {
 
         }
 
-        if(txtCnpj.getText().length()<14){
+        if (txtCnpj.getText().length() < 14) {
 
             txtCnpj.setError("Preencha o campo com 11 numeros para cpf ou 14 numeros para cnpj");
             txtCnpj.requestFocus();
@@ -186,7 +186,6 @@ public class CadastroJuridico_Activivity extends AppCompatActivity {
                             }
 
                         } catch (Exception e) {
-
                             Toast.makeText(getApplicationContext(), "Erro, sem comunicação com o servidor, verifique a internet e tente novamente!", Toast.LENGTH_LONG).show();
                             Enviar.setEnabled(true);
                         }
@@ -216,11 +215,7 @@ public class CadastroJuridico_Activivity extends AppCompatActivity {
 
 
         };
-
-
         requestQueue.add(stringRequest);
-
-
     }
 
     public void CancelarJur(View view) {
