@@ -125,34 +125,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void temas(View view) {
-        Button preto;
 
-        TextView txtclose;
-        dialog.setContentView(R.layout.popup_estilo);
-
-        txtclose =(TextView) dialog.findViewById(R.id.txtclose);
-
-
-        preto = (Button) dialog.findViewById(R.id.estiloPreto);
-
-
-        txtclose.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v2) {
-
-                dialog.dismiss();
-            }
-        });
-
-        preto.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v3) {
-
-              
-
-            }
-        });
+        }
 
 
 
@@ -161,13 +135,5 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
-        dialog.show();
-
-    }
 
 
-
-
-
-}
